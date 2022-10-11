@@ -4,15 +4,15 @@ import Topic from "../Topic/Topic";
 
 const Topics = () => {
   const topics = useLoaderData();
-  topics.data.map((topic) => {
-    console.log(topic.name);
-    console.log(topic.id);
-    console.log(topic.logo);
-  });
+  // topics.data.map((topic) => {
+  //   console.log(topic.name);
+  //   console.log(topic.id);
+  //   console.log(topic.logo);
+  // });
 
   return (
     <div>
-      <h1>This is Topics Page:{topics.data[1].name}</h1>
+      {/* <h1>This is Topics Page:{topics.data[1].name}</h1> */}
       {topics.data.map((topic) => (
         <Topic
           key={topic.id}
