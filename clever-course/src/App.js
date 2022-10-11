@@ -21,7 +21,10 @@ function App() {
           element: <Blog></Blog>,
         },
         {
-          path: "/home",
+          path: "/topics",
+          loader: async () => {
+            return fetch("https://openapi.programming-hero.com/api/quiz");
+          },
           element: <Topics></Topics>,
         },
         {
@@ -33,7 +36,7 @@ function App() {
   ]);
 
   return (
-    <div >
+    <div>
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
