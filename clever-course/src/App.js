@@ -3,6 +3,7 @@ import "./App.css";
 import Blog from "./components/Blog/Blog";
 import Home from "./components/Home/Home";
 import Main from "./components/layouts/Main";
+import NotFound from "./components/NotFound/NotFound";
 import QuizPage from "./components/QuizPage/QuizPage";
 import Statistics from "./components/Statistics/Statistics";
 import Topics from "./components/Topics/Topics";
@@ -42,6 +43,10 @@ function App() {
           element: <Statistics></Statistics>,
         },
       ],
+    },
+    {
+      path: "*",
+      element: <NotFound></NotFound>,
     },
   ]);
 
