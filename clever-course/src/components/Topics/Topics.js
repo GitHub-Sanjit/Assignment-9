@@ -16,6 +16,7 @@ const Topics = () => {
       {topics.data.map((topic) => (
         <Topic
           key={topic.id}
+          total={topic.total}
           name={topic.name}
           id={topic.id}
           logo={topic.logo}
