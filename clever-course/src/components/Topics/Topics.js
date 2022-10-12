@@ -4,11 +4,7 @@ import Topic from "../Topic/Topic";
 
 const Topics = () => {
   const topics = useLoaderData();
-  // topics.data.map((topic) => {
-  //   console.log(topic.name);
-  //   console.log(topic.id);
-  //   console.log(topic.logo);
-  // });
+
 
   return (
     <div>
