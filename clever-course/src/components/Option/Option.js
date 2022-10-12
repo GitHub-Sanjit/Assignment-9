@@ -1,8 +1,8 @@
 import React from "react";
-import './Option.css';
+import "./Option.css";
 
 const Option = ({ option }) => {
-//   console.log(option);
+  //   console.log(option, ans);
   return (
     <div className="option">
       <label>

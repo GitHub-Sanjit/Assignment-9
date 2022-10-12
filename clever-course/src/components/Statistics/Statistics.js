@@ -49,6 +49,8 @@ const Statistics = () => {
         <Tooltip></Tooltip>
         <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
       </LineChart>
+    
+
     </div>
   );
 };
