@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="fixed-top">
       <h2>Clever-Course</h2>
       <nav>
         {/* <Link to="/home">Home</Link> */}

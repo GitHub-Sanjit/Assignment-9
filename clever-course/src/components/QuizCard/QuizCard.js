@@ -1,17 +1,18 @@
 import React from "react";
 import Option from "../Option/Option";
-// import { useLoaderData } from "react-router-dom";
+import "./QuizCard.css";
 
 const QuizCard = ({ question }) => {
   //   const quiz = useLoaderData();
+    console.log(question);
 
   return (
-    <div>
+    <div className="quiz-card">
       <div>
-        <h2>Quiz : {question.question}</h2>
+        <h4 className="question">Quiz : {question.question}</h4>
       </div>
       {question.options.map((option) => {
-        console.log(option);
+        
         return <Option key={option.id} option={option}></Option>;
       })}
     </div>

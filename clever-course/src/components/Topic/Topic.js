@@ -7,11 +7,11 @@ const Topic = ({ name, id, logo, total }) => {
   return (
     <div className="topic">
       <img src={logo} alt="" />
-      <h1>
-        <Link to={`/topic/${id}`}>{name}</Link>
-      </h1>
+      <h1>{name}</h1>
       <p>Total : {total}</p>
-      <button id={id}>Start Practice</button>
+      <button id={id}>
+        <Link to={`/topic/${id}`}>Start Practice</Link>
+      </button>
       {/* <h2>{name}</h2> */}
     </div>
   );
