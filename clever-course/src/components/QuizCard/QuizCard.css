@@ -1,5 +1,5 @@
 .quiz-card {
-  border: 1px solid salmon;
+  border: 2px solid rgb(130, 14, 1);
   border-radius: 10px;
   margin-bottom: 10px;
   padding: 10px;
@@ -9,4 +9,21 @@
   background-color: aquamarine;
   padding: 5px;
   border-radius: 5px;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.d-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.icon {
+  color: rgb(14, 7, 197);
+  align-items: flex-end;
+  
 }
