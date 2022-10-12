@@ -1,8 +1,9 @@
 import React from "react";
+import "./Blog.css";
 
 const Blog = () => {
   return (
-    <div>
+    <div className="blog">
       <h4 className="question">
         Question: What is the purpose of ReactRouter?
       </h4>

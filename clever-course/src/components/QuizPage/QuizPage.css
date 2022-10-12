@@ -1,14 +1,19 @@
-.text-center{
-    border-radius: 10px;
-    text-align: center;
-    background-color: #8fbc8f;
-    margin: 40px 150px;
+.text-center {
+  border-radius: 10px;
+  text-align: center;
+  background-color: #8fbc8f;
+  margin: 40px 150px;
 }
 
-.all-quiz{
-    border-radius: 10px;
-    border: 1px solid #8fbc8f;
-    margin: 50px;
-    padding: 20px;
-    border-radius: 10px;
+.all-quiz {
+  margin-top: 120px;
+  border-radius: 10px;
+  border: 1px solid #8fbc8f;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quiz-page {
+  margin-top: 120px;
 }

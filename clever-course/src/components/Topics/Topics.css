@@ -1,4 +1,7 @@
 .topic-container {
+  margin: 120px 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+

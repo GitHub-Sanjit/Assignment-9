@@ -6,7 +6,21 @@
 }
 
 .topic img {
-  background-color: bisque;
+  background-color: rgb(250, 250, 96);
   width: inherit;
   height: 250px;
+}
+
+button{
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(160, 238, 86);
+  width: 100%;
+  padding: 8px;
+  font-weight: 600;
+}
+
+.topic button a{
+  text-decoration: none;
+  
 }

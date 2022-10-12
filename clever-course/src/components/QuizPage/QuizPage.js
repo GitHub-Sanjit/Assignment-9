@@ -7,7 +7,7 @@ const QuizPage = () => {
   const quiz = useLoaderData();
   // console.log(quiz.data);
   return (
-    <div>
+    <div className="quiz-page">
       <h1 className="text-center">Quiz of {quiz.data.name}</h1>
       <div className="all-quiz">
         {quiz.data.questions.map((q) => {
