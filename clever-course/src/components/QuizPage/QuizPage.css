@@ -1,9 +1,13 @@
 .text-center{
+    border-radius: 10px;
     text-align: center;
+    background-color: #8fbc8f;
+    margin: 40px 150px;
 }
 
 .all-quiz{
-    border: 1px solid gray;
+    border-radius: 10px;
+    border: 1px solid #8fbc8f;
     margin: 50px;
     padding: 20px;
     border-radius: 10px;

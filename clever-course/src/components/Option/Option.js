@@ -1,11 +1,11 @@
 import React from "react";
 import "./Option.css";
 
-const Option = ({ option }) => {
-  //   console.log(option, ans);
+const Option = ({ option,onclick }) => {
+    console.log(onclick);
   return (
     <div className="option">
-      <label>
+      <label onClick={onclick}>
         <input type="radio" value={option} name="quiz" />
         {option}
       </label>

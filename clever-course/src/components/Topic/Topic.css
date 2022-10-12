@@ -1,5 +1,12 @@
 .topic {
-  border: 2px solid peru;
+  border: 2px solid rgb(1, 120, 13);
+  border-radius: 10px;
   margin: 20px;
   padding: 20px;
+}
+
+.topic img {
+  background-color: bisque;
+  width: inherit;
+  height: 250px;
 }

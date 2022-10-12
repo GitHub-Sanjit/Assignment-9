@@ -8,6 +8,12 @@ import "./QuizCard.css";
 const QuizCard = ({ question }) => {
   //   const quiz = useLoaderData();
   const correctAns = question.correctAnswer;
+  const clickHandler = (option) => {
+    if (correctAns === option) {
+      return toast("Correct Answer");
+    }
+    return toast("Wrong Answer");
+  };
   console.log(correctAns);
   return (
     <div className="quiz-card">
@@ -23,7 +29,13 @@ const QuizCard = ({ question }) => {
       <ToastContainer />
       <div className="options">
         {question.options.map((option) => {
-          return <Option key={option.id} option={option}></Option>;
+          return (
+            <Option
+              key={option.id}
+              option={option}
+              clickHandler={() => clickHandler(option)}
+            ></Option>
+          );
         })}
       </div>
     </div>
